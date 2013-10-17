@@ -34,9 +34,9 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
-#workshops { *zoom: 1; }
-#workshops:before, #workshops:after { content: ""; display: table; }
-#workshops:after { clear: both; }
+#workshops, footer div.container { *zoom: 1; }
+#workshops:before, footer div.container:before, #workshops:after, footer div.container:after { content: ""; display: table; }
+#workshops:after, footer div.container:after { clear: both; }
 
 .pull_right { float: right; }
 
@@ -2611,8 +2611,15 @@ nav p.skiplink a:hover { color: #2fb0d5; }
 #workshops section { *zoom: 1; }
 #workshops section:before, #workshops section:after { content: ""; display: table; }
 #workshops section:after { clear: both; }
-#workshops section li { display: inline-block; float: left; padding-left: 1.06383%; padding-right: 1.06383%; width: 100%; max-height: 18.75em; background: #ddd; padding: 2em; margin: 1em; }
+#workshops section li { display: inline-block; float: left; padding-left: 1.06383%; padding-right: 1.06383%; width: 100%; max-height: 18.75em; padding: 1em; }
 @media only screen and (min-width: 0px) { #workshops section li { width: 100%; } }
 @media only screen and (min-width: 768px) { #workshops section li { width: 50%; } }
 @media only screen and (min-width: 1240px) { #workshops section li { width: 25%; } }
+#workshops section li div.grid-box { background: #ddd; padding: 1em; }
 #workshops section li .description { min-height: 12.5em; }
+
+footer { margin-top: 2em; padding: 2em; background: #085987; color: #ddd; }
+footer div.container { width: 100%; max-width: 1280px; min-width: 320px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
+footer div.container > *:first-child { margin-left: 0; }
+@media only screen and (max-width: 767px) { footer div.container { width: auto; min-width: 0; margin-left: 0; margin-right: 0; } }
+footer h3 { color: #fff; }
