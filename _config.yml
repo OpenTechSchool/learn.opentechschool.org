@@ -6,6 +6,7 @@ permalink: none
 
 exclude: ['bower_components', 'sass', 'config.rb', 'gumby.json',
           'Gemfile', 'Gemfile.lock', 'README.md']
+include: ['.nojekyll']
 
 
 sections:
