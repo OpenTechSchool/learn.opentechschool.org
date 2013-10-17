@@ -121,6 +121,6 @@ footer {
   }
   p.copyright {
     text-align: center;
-    @include font-size($norm);
+    @include font-size(14px);
   }
 }
