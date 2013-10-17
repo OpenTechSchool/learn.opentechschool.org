@@ -1,0 +1,93 @@
+// Your custom SCSS should be written here...
+
+$row-max-width: 1240px;
+
+
+h1, h4 {
+  font-family: Montserrat, sans-serif;
+}
+
+header {
+  margin-top: 2em;
+  padding: 2em;
+  background: #085987;
+  text-align: center;
+  h1 a:hover, h2 a:hover {
+    color: #fff;
+  }
+  h1 a {
+    color: #eef;
+  }
+  h2 a {
+    color: #e2e2f0;
+  }
+}
+
+nav {
+  @extend .navbar;
+  background: #f4f4f4;
+  ul {
+    margin: 0 auto;
+  }
+  p.skiplink {
+    background: inherit;
+    &:hover {
+      @extend .medium, .oval, .btn;
+      background-color: #e5e5e5;
+      border: none;
+      margin: 0;
+    }
+    a {
+      color: #555;
+      &:hover {
+        color: $body-link-hover-color;
+      }
+    }
+  }
+}
+
+#workshops {
+  @include row;
+  h3 {
+    text-align: center;
+    position: relative;
+    i {
+      position: absolute;
+      right: 2em;
+      @include font-size($med);
+      color: #555;
+    }
+  }
+  section {
+    @include clearfix;
+    li {
+      @include fancytiles(4,2,1);
+      padding: 1em;
+      div.grid-box {
+        max-height: em(300px);
+        background: #ddd;
+        padding: 1em;
+      }
+      .description {
+        min-height: em(200px);
+      }
+    }
+  }
+}
+
+footer {
+  margin-top: 2em;
+  padding: 2em;
+  background: #085987;
+  color: #ddd;
+  div.container {
+    @include row;
+  }
+  h3 {
+    color: #fff;
+  }
+}
+
+.source-link, .code-link {
+  @extend .medium, .default, .btn;
+}

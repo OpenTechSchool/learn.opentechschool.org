@@ -1,0 +1,69 @@
+name: OpenTechSchool
+markdown: redcarpet
+pygments: true
+encoding: UTF-8
+permalink: none
+
+exclude: ['bower_components', 'sass', 'config.rb', 'gumby.json',
+          'Gemfile', 'Gemfile.lock']
+
+
+sections:
+  - name: Python
+    workshops:
+      - title: Python for Beginners
+        url: http://opentechschool.github.io/python-beginners/
+        source: https://github.com/OpenTechSchool/python-beginners/
+        code: false
+        desc: A tutorial for complete newbies, to help them get their feet
+              wet in programming.
+      - title: Introducing web apps with Flask
+        url: http://opentechschool.github.io/python-flask/
+        source: https://github.com/OpenTechSchool/python-flask/
+        code: https://github.com/OpenTechSchool/python-flask-code
+        desc: So you wanna get dynamic, huh? Crafting up responsive web apps
+              isn't hard with the Flask library for Python.
+      - title: Data Processing with Python
+        url: http://opentechschool.github.io/python-data-intro/
+        source: https://github.com/OpenTechSchool/python-data-intro/
+        code: false
+        desc: Designed to release you from the chains of Excel, learn how to
+              manipulate and graph data with python, for great insight!
+      - title: Django 101
+        url: http://django-marcador.keimlink.de/
+        source: https://bitbucket.org/keimlink/django-marcador/
+        code: false
+        desc: Django is a full-featured framework for writing python web 
+              applications quickly. Learn how to utilize its power!
+  - name: Javascript
+    workshops:
+      - title: Javascript, Day 1
+        url: http://opentechschool.github.io/js-beginners-4h-workshop-1/
+        source: https://github.com/OpenTechSchool/js-beginners-4h-workshop-1/
+        code: false
+        desc: Beginning your path to becoming a javascript ninja.
+      - title: Javascript, Day 2
+        url: http://opentechschool.github.io/js-beginners-day2/
+        source: https://github.com/OpenTechSchool/js-beginners-day2/
+        code: false
+        desc: Continuing on your path to becoming a javascript ninja.
+  - name: Web Development
+    workshops:
+      - title: Starting HTML & CSS
+        url: http://opentechschool.github.io/html-css-beginners/
+        source: https://github.com/OpenTechSchool/html-css-beginners/
+        code: false
+        desc: 'A first foray into learning the languages of the web: 
+              HTML and CSS.'
+      - title: Advanced CSS
+        url: http://opentechschool.github.io/advanced-css/
+        source: https://github.com/OpenTechSchool/advanced-css/
+        code: false
+        desc: How frontend professionals come up with amazing sites in no time.
+  - name: Tools
+    workshops:
+      - title: Social coding with Git & Github
+        url: http://opentechschool.github.io/social-coding/
+        source: https://github.com/OpenTechSchool/social-coding/
+        code: https://github.com/OpenTechSchool/underground/
+        desc: Learning to use git to make coding a communal experience!

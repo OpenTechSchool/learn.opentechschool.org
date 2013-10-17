@@ -1,0 +1,57 @@
+---
+layout: ots
+title:  "Learning Materials"
+---
+<header>
+  <h1><a href="http://www.opentechschool.org">{{ site.name }}</a></h1>
+  <h2><a href="{{site.baseurl}}">Learning Materials</a></h2>
+</header>
+<nav>
+  <ul>
+  {% for s in site.sections %}
+    <li><p class="skiplink">
+      <a href="#{{s.name}}" gumby-goto="[data-target='{{s.name}}']">{{s.name}}</a>
+    </p></li>
+  {% endfor %}
+  </ul>
+</nav>
+<div id="workshops">
+{% for section in site.sections %}
+  <section id="{{section.name}}" data-target="{{section.name}}">
+    <h3>{{section.name}}<a href="#"><i class="icon-up-open"></i></a></h3>
+    <ul>
+    {% for tut in section.workshops %}
+      <li>
+        <div class="grid-box">
+          <div class="description">
+            <h4><a href="{{tut.url}}">{{tut.title}}</a></h4>
+            <p>{{tut.desc}}</p>
+          </div>
+          {% if tut.source %}
+          <div class="source-link icon-left entypo icon-github">
+            <a href="{{tut.source}}">Source</a>
+          </div>
+          {% endif %}
+          {% if tut.code %}
+          <div class="code-link icon-left entypo icon-code">
+            <a href="{{tut.code}}">Code</a>
+          </div>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+</div>
+<footer>
+  <div class="container">
+    <h3>About OpenTechSchool</h3>
+    <p>
+    OpenTechSchool are a non-profit organisation, dedicated to providing
+    free workshops, tutorials, and learning spaces for the community. 
+    We welcome new members and contributions, and all of our resources are 
+    available freely on the web.
+    </p>
+  </div>
+</footer>
