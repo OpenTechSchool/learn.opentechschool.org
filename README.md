@@ -22,6 +22,8 @@ CSS adjustments are made in `sass/_custom.scss` and `sass/_fonts.scss`.
 Jekyll might not automatically rebuild the site if you have changed
 `_config.yml`, so I just `rm -rf _site/*` before restarting the server again.
 
+The `gh-pages` branch is committed to from the generated `_site/` folder.
+
 ### Node.js
 
 Only needed to update gumby.
