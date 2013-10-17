@@ -68,10 +68,13 @@ nav {
         background: #ddd;
         padding: 1em;
         position: relative;
+        &:hover {
+          background: #e4e4e4;
+        }
       }
       .description {
         min-height: em(200px);
-        h4 {
+        h4, p {
           position: relative;
           z-index: 2;
         }
@@ -83,12 +86,16 @@ nav {
         top:0;
         left: 0;
 
-        /* edit: added z-index */
         z-index: 1;
 
-        /* edit: fixes overlap error in IE7/8,
+        /* fixes overlap error in IE7/8,
            make sure you have an empty gif */
         background-image: url('img/empty.gif');
+      }
+      .source-link, .code-link {
+        position: relative;
+        z-index: 2;
+        @extend .medium, .default, .btn;
       }
     }
   }
@@ -98,17 +105,22 @@ footer {
   margin-top: 2em;
   padding: 2em;
   background: #085987;
-  color: #ddd;
-  div.container {
-    @include row;
-  }
+  color: #d2d2d2;
   h3 {
     color: #fff;
   }
-}
-
-.source-link, .code-link {
-  position: relative;
-  z-index: 2;
-  @extend .medium, .default, .btn;
+  a {
+    color: #c1d5e1;
+    font-weight: bold;
+    &:hover {
+      color: #fff;
+    }
+  }
+  div.container {
+    @include row;
+  }
+  p.copyright {
+    text-align: center;
+    @include font-size($norm);
+  }
 }
