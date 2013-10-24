@@ -33,3 +33,14 @@ globally (`npm install -g bower claymate`).
 
 To update gumby, use `bower update gumby`. To then rebuild it, use
 `claymate build`.
+
+### Updating the repo
+
+In order to push to gh-pages for the first time:
+
+1. `rm -rf _site`
+2. `mkdir _site; cd _site`
+3. `git clone -b gh-pages git@github.com:OpenTechSchool/learn.opentechschool.org.git .`
+4. `cd ../; compass compile; jekyll build`
+5. `cd _site; git commit -a`
+6. Commit and push.
