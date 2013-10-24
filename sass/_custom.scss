@@ -29,6 +29,9 @@ nav {
   ul {
     margin: 0 auto;
   }
+  ul.active p a {
+    color: #bbb;
+  }
   p.skiplink {
     background: inherit;
     &:hover {
@@ -103,7 +106,7 @@ nav {
 
 footer {
   margin-top: 2em;
-  padding: 2em;
+  padding: 2em 0;
   background: #085987;
   color: #d2d2d2;
   h3 {
