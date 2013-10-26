@@ -56,7 +56,7 @@ nav {
     position: relative;
     i {
       position: absolute;
-      right: 2em;
+      left: 2em;
       @include font-size($med);
       color: #555;
     }
@@ -65,7 +65,7 @@ nav {
     @include clearfix;
     li {
       @include fancytiles(4,2,1);
-      padding: 1em;
+      padding: 0.5em;
       div.grid-box {
         max-height: em(300px);
         background: #ddd;
@@ -80,6 +80,15 @@ nav {
         h4, p {
           position: relative;
           z-index: 2;
+        }
+        h4 {
+          padding-top: 0;
+          a {
+            display: block;
+            background: #eee;
+            padding: 0.4em;
+            text-align: center;
+          }
         }
       }
       .div-link {
@@ -98,7 +107,7 @@ nav {
       .source-link, .code-link {
         position: relative;
         z-index: 2;
-        @extend .medium, .default, .btn;
+        @extend .small, .default, .btn;
       }
     }
   }
