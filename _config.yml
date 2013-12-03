@@ -72,8 +72,4 @@ sections:
         url: http://opentechschool.github.io/github-from-scratch/
         source: https://github.com/OpenTechSchool/github-from-scratch/
         code: false
-        desc: "Github from Scratch is aimed at people who know nothing more 
-	      than how to use a webbrowser. They get from zero to having a 
-	      page online by using nothing more than Github's online editing 
-	      features. Then they set their own focus: more HTML, more Jekyll, 
-	      offline development, Git gui tools, starting with the command line, etc."
+        desc: "Learning about Github, Jekyll and basic HMLT / CSS."
