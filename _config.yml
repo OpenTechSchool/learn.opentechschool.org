@@ -68,3 +68,8 @@ sections:
         source: https://github.com/OpenTechSchool/social-coding/
         code: https://github.com/OpenTechSchool/underground/
         desc: "Learning to use git to make coding a communal experience!"
+      - title: Github from Scratch
+        url: http://opentechschool.github.io/github-from-scratch/
+        source: https://github.com/OpenTechSchool/github-from-scratch/
+        code: false
+        desc: "Learning about Github, Jekyll and basic HMLT / CSS."
