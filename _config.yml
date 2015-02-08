@@ -59,6 +59,13 @@ sections:
         source: https://github.com/OpenTechSchool/advanced-css/
         code: false
         desc: "How frontend professionals come up with amazing sites in no time."
+  - name Data Hacking
+    workshops:
+      - title: Working with SQL databases
+        url: http://opentechschool.github.io/sql-tutorial/
+        source: https://github.com/OpenTechSchool/sql-tutorial
+        code: false
+        desc: "Beginners' tutorial on how to extract information from databases with SQL"
   - name: Tools
     workshops:
       - title: Social coding with Git & Github
