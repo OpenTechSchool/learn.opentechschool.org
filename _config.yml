@@ -54,11 +54,11 @@ sections:
         code: false
         desc: "A first foray into learning the languages of the web: 
               HTML and CSS."
-      - title: Advanced CSS
-        url: http://opentechschool.github.io/advanced-css/
-        source: https://github.com/OpenTechSchool/advanced-css/
+      - title: CSSclasses
+        url: http://cssclasses.cssconf.eu/learning-materials/
+        source: https://github.com/OpenTechSchool/CSSclasses/
         code: false
-        desc: "How frontend professionals come up with amazing sites in no time."
+        desc: "Learn CSS in a playful way and experiment in the browser."
   - name: Data Hacking
     workshops:
       - title: Working with SQL databases
