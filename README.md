@@ -21,7 +21,7 @@ another, then visit http://localhost:4000/
 CSS adjustments are made in `sass/_custom.scss` and `sass/_fonts.scss`.
 
 Jekyll might not automatically rebuild the site if you have changed
-`_config.yml`, so I just `rm -rf _site/*` before restarting the server again.
+`_config.yml`, so I just `rm -r _site/*` before restarting the server again.
 
 ### Node.js
 
