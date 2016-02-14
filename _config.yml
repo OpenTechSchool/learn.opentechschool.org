@@ -34,18 +34,18 @@ sections:
         code: false
         desc: "Django is a full-featured framework for writing python web 
               applications quickly. Learn how to utilize its power!"
-  - name: Javascript
+  - name: JavaScript
     workshops:
-      - title: Javascript, Day 1
-        url: http://opentechschool.github.io/js-beginners-4h-workshop-1/
-        source: https://github.com/OpenTechSchool/js-beginners-4h-workshop-1/
+      - title: JavaScript for Absolute Beginners, Part 1
+        url: http://opentechschool.github.io/js-beginners-1/
+        source: https://github.com/OpenTechSchool/js-beginners-1/
         code: false
-        desc: "Beginning your path to becoming a javascript ninja."
-      - title: Javascript, Day 2
-        url: http://opentechschool.github.io/js-beginners-day2/
-        source: https://github.com/OpenTechSchool/js-beginners-day2/
+        desc: "Learn the basics of the JavaScript programming language."
+      - title: JavaScript for Absolute Beginners, Part 2
+        url: http://opentechschool.github.io/js-beginners-2/
+        source: https://github.com/OpenTechSchool/js-beginners-2/
         code: false
-        desc: "Continuing on your path to becoming a javascript ninja."
+        desc: "Use basic JavaScript and the DOM to build a slide show in the browser."
   - name: Web Development
     workshops:
       - title: Starting HTML & CSS
