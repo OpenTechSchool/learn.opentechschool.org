@@ -54,7 +54,7 @@ sections:
         code: false
         desc: "A first foray into learning the languages of the web: 
               HTML and CSS."
-      - title: CSSclasses
+      - title: CSS Classes
         url: http://cssclasses.cssconf.eu/materials/
         source: https://github.com/OpenTechSchool/CSSclasses/
         code: false
