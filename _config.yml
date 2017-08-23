@@ -48,17 +48,17 @@ sections:
         desc: "Use basic JavaScript and the DOM to build a slide show in the browser."
   - name: Web Development
     workshops:
+      - title: CSS Classes
+        url: http://cssclass.es/materials/
+        source: https://github.com/CSSclasses/CSSclasses
+        code: false
+        desc: "Learn CSS in a playful way and experiment in the browser."
       - title: Starting HTML & CSS
         url: http://opentechschool.github.io/html-css-beginners/
         source: https://github.com/OpenTechSchool/html-css-beginners/
         code: false
         desc: "A first foray into learning the languages of the web: 
               HTML and CSS."
-      - title: CSS Classes
-        url: http://cssclasses.cssconf.eu/materials/
-        source: https://github.com/OpenTechSchool/CSSclasses/
-        code: false
-        desc: "Learn CSS in a playful way and experiment in the browser."
   - name: Data Hacking
     workshops:
       - title: Working with SQL databases
