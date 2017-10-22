@@ -36,12 +36,12 @@ sections:
               applications quickly. Learn how to utilize its power!"
   - name: JavaScript
     workshops:
-      - title: JavaScript for Absolute Beginners, Part 1
+      - title: JavaScript for Absolute Beginners
         url: http://opentechschool.github.io/js-beginners-1/
         source: https://github.com/OpenTechSchool/js-beginners-1/
         code: false
         desc: "Learn the basics of the JavaScript programming language."
-      - title: JavaScript for Absolute Beginners, Part 2
+      - title: JavaScript for Web Pages (outdated)
         url: http://opentechschool.github.io/js-beginners-2/
         source: https://github.com/OpenTechSchool/js-beginners-2/
         code: false
